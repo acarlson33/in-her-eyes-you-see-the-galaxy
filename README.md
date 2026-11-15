@@ -6,7 +6,7 @@ For Jay: Put images in .png format in `game/images` folder
 
 # Game
 
-This VN is built with stock ren'py with the latest version of the library (8.5.3.26051504+unofficial (Built from AUR))
+This VN is built with stock ren'py with the latest version of the library (8.6.0.26111403+unofficial (Built from AUR))
 
 Python version is 3.14.10
 
