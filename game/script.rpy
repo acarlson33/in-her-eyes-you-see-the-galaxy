@@ -1,13 +1,14 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+﻿#######################
+#        Main         #
+#######################
 
 define a = Character("Adelaine")
 
 define m = Character("Miruna")
 
 define n = Character("Very Snarky Narrator")
+
+image a = Placeholder("girl", True, False, "Adelaine Placeholder")
 
 transform scale(ratio):
     zoom ratio
@@ -16,25 +17,28 @@ transform scale(ratio):
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
     scene black
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
 
-    n "What was that? 2 spaceships crashing into eachother??"
+    n "What was that{space=0.1}? 2 spaceships crashing into eachother{space=0.1}??"
 
     scene bg explosion final at truecenter, scale(4)
 
-    n "What a coincidence!!!"
+    n "What a coincidence{space=0.1}!!!"
 
-# Alternatively you could us `jump <SCENE_NAME>` to move to specified scenes.
 
-label evilalienyuri:
+label a_one:
+    # This is going to be a's first scene + story. 
     
-    n "This is the next scene."
-    # Return ends the program, but you can move between scenes by leaving them empty
+    show a at left, scale(0.5)
 
-    return
+    a "What the heck{space=0.1}?? Where am I{space=0.1}??"
+
+
+label flowers:
+    scene bg forest two at truecenter
+
+    # TMP, need a shocked sprite for M
+    show m talk at left, scale(0.5)
+    pause 0.5
+    m "Woah{space=0.1}!! what are these{space=0.1}??"
+
