@@ -8,6 +8,7 @@ define n = Character("Very Snarky Narrator")
 
 image a = Placeholder("girl", True, False, "Adelaine Placeholder")
 
+
 transform scale(ratio):
     zoom ratio
 
@@ -30,7 +31,7 @@ label act_one:
 
     a "Where are all my loyal subjects ?"
 
-    show m pose1 talk at left, scale(0.5)
+    show m1talk at left, scale(0.5)
 
     m "Oh hello! It seems our spaceships have had a … crashing into each other. It seems."
 
