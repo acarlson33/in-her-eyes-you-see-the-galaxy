@@ -69,7 +69,7 @@ label act_one:
 
     m "Oh!"
 
-    n "She looks down to see a small flower she is crushing."
+    "She looks down to see a small flower she is crushing."
 
     show m pose1 sad at left, scale(0.5)
 
