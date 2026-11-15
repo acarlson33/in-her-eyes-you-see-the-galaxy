@@ -50,11 +50,3 @@ label act_one:
 
     # show a point at left, scale(0.5)
     a "Our plans better not intersect or you will rue the day you have messed with me!"
-
-# label flowers:
-#     scene bg forest two at truecenter
-
-#     # TMP, need a shocked sprite for M
-#     show m pose1 talk at left, scale(0.5)
-#     pause 0.5
-#     m "Woah{space=0.1}!! what are these{space=0.1}??"
