@@ -14,6 +14,8 @@ transform scale(ratio):
 
 label start:
 
+    play music crash
+
     scene black
 
     n "What was that{space=0.1}? 2 spaceships crashing into eachother{space=0.1}??"
