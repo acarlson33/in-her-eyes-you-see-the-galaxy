@@ -53,7 +53,7 @@ label act_one:
     m "Plans?"
 
     show a pose1 tsun at right, scale(0.5)
-    play music "mus_006.ogg"
+    play music "mus_006.ogg" volume 0.5
 
     a "Yeah. Plans."
 
@@ -101,7 +101,7 @@ label act_one:
     
     a "If there's any extraterrestrial being here in the forest that's going to take over the world, it's ME!"
 
-    show m pose1 frown at left, scale(0.5)
+    show m pose1 sad at left, scale(0.5)
 
     m "Take over the world ?"
 
@@ -109,7 +109,7 @@ label act_one:
 
     m "Whatever do you mean ?"
 
-    show a pose1 talk at right, scale(0.5)
+    show a pose1 tsun at right, scale(0.5)
 
     a "Oh you know."
 
@@ -224,11 +224,11 @@ label act_one:
 
     a "Consider your offer accepted!"
 
-    show a pose2 happy at right, scale(0.5)
+    show m pose1 happy at left, scale(0.5)
 
     m "Oh, joy! Oh joyous joys! I've never been more Joyful!"
 
-    scene cg with dissolve(2.0)
+    # scene cg
 
     n "And they lived happily ever after and maybe kissed a little or held hands."
 
