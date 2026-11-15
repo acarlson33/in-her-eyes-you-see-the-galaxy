@@ -228,7 +228,7 @@ label act_one:
 
     m "Oh, joy! Oh joyous joys! I've never been more Joyful!"
 
-    show cg
+    scene cg at truecenter, scale(0.5)
 
     "And they lived happily ever after and maybe kissed a little or held hands."
 
