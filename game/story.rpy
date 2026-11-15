@@ -53,6 +53,7 @@ label act_one:
     m "Plans?"
 
     show a pose1 tsun right, scale(0.5)
+    play music mus_006
 
     a "Yeah. Plans."
 
@@ -102,11 +103,11 @@ label act_one:
 
     show m pose1 frown at left, scale(0.5)
 
-    m "Take over the world?"
+    m "Take over the world ?"
 
     show m pose2 confused at left, scale(0.5)
 
-    m "Whatever do you mean?"
+    m "Whatever do you mean ?"
 
     show a pose1 talk at right, scale(0.5)
 
@@ -117,6 +118,7 @@ label act_one:
     a "So get outta town!"
 
     show m pose1 sad at left, scale(0.5)
+    play mus_005a
 
     m "..."
 
@@ -124,7 +126,7 @@ label act_one:
 
     m "I'm not trying to take over the world."
 
-    m "Why do you wish to do so, friend?"
+    m "Why do you wish to do so, friend ?"
 
     show a pose1 shout at right, scale(0.5)
 
@@ -140,11 +142,11 @@ label act_one:
 
     show m pose2 confused at left, scale(0.5)
 
-    m "Hm?"
+    m "Hm ?"
 
     show m pose1 happy at left, scale(0.5)
 
-    m "Sorry, what'd you say?"
+    m "Sorry, what'd you say ?"
 
     show m pose1 smile at left, scale(0.5)
 
@@ -160,7 +162,7 @@ label act_one:
 
     show a pose1 frown at right, scale(0.5)
 
-    a "We're not?"
+    a "We're not ?"
 
     show m pose1 happy at left, scale(0.5)
 
@@ -173,6 +175,7 @@ label act_one:
     m "In fact,"
 
     show m pose1 happy at left, scale(0.5)
+    play mus_005b
 
     m "I am quite fond of you."
 
@@ -206,7 +209,7 @@ label act_one:
 
     show a pose1 tsun at right, scale(0.5)
 
-    a "...Really?"
+    a "...Really ?"
 
     show m pose1 happy at left, scale(0.5)
 
@@ -217,6 +220,7 @@ label act_one:
     show a pose2 grin at right, scale(0.5)
 
     show m pose1 smile at left, scale(0.5)
+    play mus_004
 
     a "Consider your offer accepted!"
 
@@ -225,3 +229,8 @@ label act_one:
     m "Oh, joy! Oh joyous joys! I've never been more Joyful!"
 
     scene cg with dissolve(2.0)
+
+    n "And they lived happily ever after and maybe kissed a little or held hands."
+
+    n "the end!"
+    stop music
