@@ -31,9 +31,22 @@ label act_one:
 
     a "Where are all my loyal subjects ?"
 
-    show m1talk at left, scale(0.5)
+    show a pose2 shout at left, scale(0.5)
 
-    m "Oh hello! It seems our spaceships have had a … crashing into each other. It seems."
+    a "Hey! You!"
+
+    show m pose1 talk at left, scale(0.5)
+    show a pose1 frown at left, scale(0.5)
+
+    m "Oh, hello!"
+
+    m "It seems our spaceships have had a … crashing into each other. It seems."
+
+    show a pose2 talk at left, scale(0.5)
+
+    a "So ths is your fault, huh?!"
+
+    show a pose1 talk at left, scale(0.5)
 
     a "You should be very sorry for doing that to my dearest ship. Hmph."
 
@@ -45,9 +58,42 @@ label act_one:
 
     m "My dearest apologies."
 
-    # show a blush at left, scale(0.5)
+    show a pose1 blush at left, scale(0.5)
 
     a "You should be."
 
-    # show a point at left, scale(0.5)
-    a "Our plans better not intersect or you will rue the day you have messed with me!"
+    show a pose2 shout at left, scale(0.5)
+
+    a "Our plans better not intersect, or you will rue the day you have messed with me!"
+
+    show a pose1 frown at left, scale(0.5)
+
+    show m pose2 confused at left, scale(0.5)
+
+    m "Plans?"
+
+    show a pose1 talk at left, scale(0.5)
+
+    a "Yeah. Plans."
+
+    show a pose2 shout at left, scale(0.5)
+
+    a "AKA, what you are currently ruining right now!"
+
+    show m pose2 confused at left, scale(0.5)
+
+    m "Ruining?"
+
+    m pose1 talk at left, scale(0.5)
+
+    m "Oh!"
+
+    n "She looks down to see a small flower she is crushing."
+
+    show m pose1 sad at left, scale(0.5)
+
+    m "Oh dear..."
+
+    show a pose1 blush at left, scale(0.5)
+
+    a "Not that, you idiot!"
