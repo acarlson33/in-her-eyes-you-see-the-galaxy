@@ -1,4 +1,7 @@
 label act_one:
+
+    play music talking
+    
     scene bg forest four at truecenter, scale(0.48)
 
     show a pose1 grin at right, scale(0.5)
