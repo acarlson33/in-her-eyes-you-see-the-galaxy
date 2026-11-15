@@ -230,7 +230,7 @@ label act_one:
 
     # scene cg
 
-    n "And they lived happily ever after and maybe kissed a little or held hands."
+    "And they lived happily ever after and maybe kissed a little or held hands."
 
-    n "the end!"
+    "the end!"
     stop music
