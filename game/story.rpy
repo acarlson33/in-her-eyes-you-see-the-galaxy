@@ -26,7 +26,7 @@ label act_one:
 
     a "So ths is your fault, huh?!"
 
-    show a pose1 tsun right, scale(0.5)
+    show a pose1 tsun at right, scale(0.5)
 
     a "You should be very sorry for doing that to my dearest ship. Hmph."
 
@@ -52,8 +52,8 @@ label act_one:
 
     m "Plans?"
 
-    show a pose1 tsun right, scale(0.5)
-    play music mus_006
+    show a pose1 tsun at right, scale(0.5)
+    play music mus_006.ogg
 
     a "Yeah. Plans."
 
@@ -118,7 +118,7 @@ label act_one:
     a "So get outta town!"
 
     show m pose1 sad at left, scale(0.5)
-    play mus_005a
+    play mus_005a.ogg
 
     m "..."
 
@@ -175,7 +175,7 @@ label act_one:
     m "In fact,"
 
     show m pose1 happy at left, scale(0.5)
-    play mus_005b
+    play mus_005b.ogg
 
     m "I am quite fond of you."
 
@@ -220,7 +220,7 @@ label act_one:
     show a pose2 grin at right, scale(0.5)
 
     show m pose1 smile at left, scale(0.5)
-    play mus_004
+    play mus_004.ogg
 
     a "Consider your offer accepted!"
 
