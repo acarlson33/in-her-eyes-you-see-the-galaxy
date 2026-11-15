@@ -22,7 +22,7 @@ label start:
     n "What a coincidence{space=0.1}!!!"
 
 label act_one:
-    scene bg forest four at truecenter, scale(0.45)
+    scene bg forest four at truecenter, scale(0.48)
 
     show a at left, scale(0.5)
 
@@ -43,6 +43,13 @@ label act_one:
     show m pose1 smile at left, scale(0.5)
 
     m "My dearest apologies."
+
+    # show a blush at left, scale(0.5)
+
+    a "You should be."
+
+    # show a point at left, scale(0.5)
+    a "Our plans better not intersect or you will rue the day you have messed with me!"
 
 # label flowers:
 #     scene bg forest two at truecenter
