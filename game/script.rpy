@@ -30,5 +30,11 @@ label start:
 
     n "What a coincidence!!!"
 
+# Alternatively you could us `jump <SCENE_NAME>` to move to specified scenes.
+
 label evilalienyuri:
     
+    n "This is the next scene."
+    # Return ends the program, but you can move between scenes by leaving them empty
+
+    return
