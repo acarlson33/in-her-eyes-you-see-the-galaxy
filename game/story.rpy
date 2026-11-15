@@ -26,7 +26,7 @@ label act_one:
 
     a "So ths is your fault, huh?!"
 
-    show a pose1 talk at right, scale(0.5)
+    show a pose1 tsun right, scale(0.5)
 
     a "You should be very sorry for doing that to my dearest ship. Hmph."
 
@@ -52,7 +52,7 @@ label act_one:
 
     m "Plans?"
 
-    show a pose1 talk at right, scale(0.5)
+    show a pose1 tsun right, scale(0.5)
 
     a "Yeah. Plans."
 
@@ -84,7 +84,7 @@ label act_one:
 
     show m pose2 confused at left, scale(0.5)
 
-    show a pose1 talk at right, scale(0.5)
+    show a pose1 frown at right, scale(0.5)
 
     a "We both know you're here to take over the world."
 
@@ -96,11 +96,11 @@ label act_one:
 
     a "And. And!"
 
-    show a pose1 grin at right, scale(0.5)
+    show a pose2 grin at right, scale(0.5)
     
     a "If there's any extraterrestrial being here in the forest that's going to take over the world, it's ME!"
 
-    show m pose1 confused at left, scale(0.5)
+    show m pose1 frown at left, scale(0.5)
 
     m "Take over the world?"
 
@@ -108,7 +108,7 @@ label act_one:
 
     m "Whatever do you mean?"
 
-    show a pose1 talk at left, scale (0.5)
+    show a pose1 talk at right, scale(0.5)
 
     a "Oh you know."
 
@@ -148,4 +148,80 @@ label act_one:
 
     show m pose1 smile at left, scale(0.5)
 
+    show a pose1 blush at right, scale(0.5)
+
+    a "I said we're enemies."
+
+    show m pose1 talk at left, scale(0.5)
+
+    m "No, we're not."
+
+    show m pose1 smile at left, scale(0.5)
+
+    show a pose1 frown at right, scale(0.5)
+
+    a "We're not?"
+
+    show m pose1 happy at left, scale(0.5)
+
+    m "Of course not!"
+
+    show m pose1 smile at left, scale(0.5)
+
+    m "I do not dislike you."
+
+    m "In fact,"
+
+    show m pose1 happy at left, scale(0.5)
+
+    m "I am quite fond of you."
+
+    show a pose1 blush at right, scale(0.5)
+
+    show m pose1 smile at left, scale(0.5)
     
+    a "..."
+
+    show a pose1 tsun at right, scale(0.5)
+
+    a "Shut up..."
+
+    show a pose2 shout at right, scale(0.5)
+
+    a "Okay fine maybe we aren't enemies."
+
+    show m pose1 happy at left, scale(0.5)
+
+    m "YAY!"
+
+    show m pose1 happy at left, scale(0.5)
+
+    show a pose1 blush at right, scale(0.5)
+
+    m "I love you!"
+
+    a "..."
+
+    show m pose1 smile at left, scale(0.5)
+
+    show a pose1 tsun at right, scale(0.5)
+
+    a "...Really?"
+
+    show m pose1 happy at left, scale(0.5)
+
+    m "Yea"
+
+    m "maybe we can rule this world... togethr....."
+
+    show a pose2 grin at right, scale(0.5)
+
+    show m pose1 smile at left, scale(0.5)
+
+    a "Consider your offer accepted!"
+
+    show a pose2 happy at right, scale(0.5)
+
+    m "Oh, joy! Oh joyous joys! I've never been more Joyful!"
+
+    scene cg with dissolve(2.0)
